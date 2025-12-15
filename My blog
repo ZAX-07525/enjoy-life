@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>个人博客page</title>
+    <link rel="stylesheet" href="home-pagestyle.css" />
+    <link rel="stylesheet" href="home-pagescript.js" />
+  </head>
+  <body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">MY BLOG</div>
+        <ul class="nav-links">
+          <li><a href="#" class="active">首页</a></li>
+          <li><a href="#">关于</a></li>
+          <li><a href="#">文章</a></li>
+          <li><a href="#">联系</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- 主横幅 -->
+    <section class="hero">
+      <img src="pictures/small beauty-.jpg" alt="城市骑行" class="hero-image" />
+      <div class="hero-content">
+        <h1>City Center Bridge</h1>
+        <p class="hero-subtitle">探索城市的美丽角落，记录生活中的每个瞬间</p>
+      </div>
+    </section>
+
+    <!-- 文章区域 -->
+    <section class="blog-container">
+      <div class="container">
+        <!-- 修改1：将特色文章模块移动到最新文章上方 -->
+        <!-- 特色文章 -->
+        <article class="featured-post">
+          <img
+            src="pictures/take photo.jpg"
+            alt="自然风光"
+            class="post-image"
+          />
+          <div class="post-content">
+            <h2>Beauty of Nature</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              vitae tellus rutrum, ultricies nunc sit amet, fermentum justo.
+            </p>
+            <a href="#" class="read-more">继续阅读</a>
+          </div>
+        </article>
+
+        <!-- 最新文章列表 -->
+        <div class="latest-posts">
+          <h3>最新文章</h3>
+
+          <article class="post-card">
+            <img
+              src="pictures/share life.jpg"
+              alt="时尚摄影"
+              class="post-thumbnail"
+            />
+            <div class="post-info">
+              <h4>Fashion Model Shoot</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                in dui mauris.
+              </p>
+              <a href="#" class="read-more">继续阅读</a>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <img src="pictures/snow-.jpg" alt="雪景" class="post-thumbnail" />
+            <div class="post-info">
+              <h4>Golden Snow Land</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                in dui mauris.
+              </p>
+              <a href="#" class="read-more">继续阅读</a>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <img src="pictures/travl-.jpg" alt="旅行" class="post-thumbnail" />
+            <div class="post-info">
+              <h4>Travel the World</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                in dui mauris.
+              </p>
+              <a href="#" class="read-more">继续阅读</a>
+            </div>
+          </article>
+        </div>
+
+        <!-- 侧边栏 -->
+        <aside class="sidebar">
+          <div class="sidebar-widget">
+            <h3>关于我</h3>
+            <img
+              src="pictures/myself.jpg"
+              alt="作者照片"
+              class="author-image"
+            />
+            <p class="author-bio">
+              热爱生活，喜欢摄影和旅行，通过文字和照片记录美好瞬间。
+            </p>
+          </div>
+
+          <div class="sidebar-widget">
+            <h3>分类</h3>
+            <ul class="categories">
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">摄影</a></li>
+              <li><a href="#">生活</a></li>
+              <li><a href="#">美食</a></li>
+              <li><a href="#">科技</a></li>
+            </ul>
+          </div>
+
+          <div class="sidebar-widget">
+            <h3>热门标签</h3>
+            <div class="tags-cloud">
+              <a href="#" class="tag">旅行</a>
+              <a href="#" class="tag">摄影</a>
+              <a href="#" class="tag">生活</a>
+              <a href="#" class="tag">美食</a>
+              <a href="#" class="tag">户外</a>
+              <a href="#" class="tag">冒险</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 我的个人博客, 保留所有权利.</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
